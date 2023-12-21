@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+.border {
+    border-style: solid;
+    border-color: red;
+    padding: 10px;
+}
+
+body {
+    margin: auto;
+    width: 50%;
+    padding-top: 3%;
+}
