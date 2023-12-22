@@ -1,0 +1,25 @@
+<div [ngClass]="num < 11 ? 'border' : 'nothing'" c;l>
+        If Conditions:
+        <ul [ngStyle]="{'background-color': num > 11 ? 'red' : 'blue'}">
+            <li>List Value 1</li>
+            <li>List Value 2</li>
+            <li *ngIf="num > 11">List Value 3</li>
+            <li>List Value 4</li>
+        </ul>
+
+        <br><br><br>
+        For Conditions:
+        <ul>
+            <li *ngFor="let i of list;">{{i}}</li>
+        </ul>
+
+        <br><br><br>
+        <ul [ngSwitch]="caseValue">
+            <li *ngSwitchCase=0>This is zero</li>
+            <li *ngSwitchCase=1>One</li>
+            <li *ngSwitchCase=2>Two</li>
+            <li *ngSwitchCase=3>Three</li>
+            <li *ngSwitchDefault>Default Case</li>
+        </ul>
+
+</div>

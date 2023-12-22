@@ -1,4 +1,4 @@
-<b>Parent Component</b>
+<!-- <b>Parent Component</b>
 
 <div class="border">
   Send Data to Comp1: <textarea type="text" placeholder="Enter anything...." #inputRef1 (keyup)="0" value="{{inputVar1}}"></textarea>
@@ -22,7 +22,9 @@
   Value 1: <input type="text" #inputValue1 /><br>
   Value 2: <input type="text" #inputValue2 /><br>
 
-  <button (click)="calculateAndDisplay(inputValue1.value, inputValue2.value, '+')">Sum</button> <button (click)="calculateAndDisplay(inputValue1.value, inputValue2.value, '-')">Substract</button>
+  <button (click)="calculateAndDisplay(inputValue1.value, inputValue2.value, '+')">Sum</button> 
+  <button (click)="calculateAndDisplay(inputValue1.value, inputValue2.value, '-')">Substract</button>
+  <button (click)="calculateAndDisplay(inputValue1.value, inputValue2.value, '*')">Multiply</button>
 
   <br>
   <br>
@@ -31,7 +33,8 @@
 </div>
 <br><br><br><br><br>
 
+ -->
 
-
+<app-directives-practical />
 
 <router-outlet></router-outlet>

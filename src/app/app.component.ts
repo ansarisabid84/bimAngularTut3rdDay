@@ -27,6 +27,8 @@ export class AppComponent {
       this.result = this.calculatorService.add(parseInt(value1), parseInt(value2));
     } else if (whichOperation == "-") {
       this.result = this.calculatorService.substract(parseInt(value1), parseInt(value2));
+    } else if (whichOperation == "*") {
+      this.result = this.calculatorService.multiply(parseInt(value1), parseInt(value2));
     }
   }
 }
